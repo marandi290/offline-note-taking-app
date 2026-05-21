@@ -1,6 +1,7 @@
 // Fix #10: bump this string whenever static assets change
-const CACHE_NAME = 'notes-cache-v2';
-const ASSETS = ['/', '/index.html', '/style.css', '/app.js', '/manifest.json'];
+const CACHE_NAME = 'notes-cache-v3';
+const BASE = '/Simple_Offline_App';
+const ASSETS = [BASE + '/', BASE + '/index.html', BASE + '/style.css', BASE + '/app.js', BASE + '/manifest.json'];
 
 // --- Install: Cache Static Assets ---
 self.addEventListener('install', e => {
