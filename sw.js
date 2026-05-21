@@ -1,6 +1,6 @@
 // Fix #10: bump this string whenever static assets change
 const CACHE_NAME = 'notes-cache-v3';
-const BASE = '/Simple_Offline_App';
+const BASE = '/offline-note-taking-app';
 const ASSETS = [BASE + '/', BASE + '/index.html', BASE + '/style.css', BASE + '/app.js', BASE + '/manifest.json'];
 
 // --- Install: Cache Static Assets ---

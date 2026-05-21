@@ -2,7 +2,7 @@
 
 A simple offline-capable note-taking PWA (Progressive Web App) that stores notes locally and syncs them when back online.
 
-🔗 **Live Demo:** https://marandi290.github.io/Simple_Offline_App/
+🔗 **Live Demo:** https://marandi290.github.io/offline-note-taking-app/
 
 ## Features
 
