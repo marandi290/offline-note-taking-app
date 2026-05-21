@@ -27,7 +27,10 @@ Simple_Offline_App/
 ├── app.js          # Client logic, IndexedDB, SW registration
 ├── sw.js           # Service worker (caching + background sync)
 ├── style.css       # Styles
-└── manifest.json   # PWA manifest
+├── manifest.json   # PWA manifest
+└── icons/
+    ├── icon-192.png  # PWA icon (192x192)
+    └── icon-512.png  # PWA icon (512x512)
 ```
 
 ## Running Locally
@@ -45,4 +48,3 @@ Then open http://localhost:3000.
 ## Notes
 
 - The `/api/notes` sync endpoint is not included — notes will remain in ⏳ Pending state until a backend is connected.
-- PWA icons (`icons/icon-192.png`, `icons/icon-512.png`) are referenced in the manifest but not included in this repo.
